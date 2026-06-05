@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 const QUICK_LINKS = [
   { label: "Home", href: "/" },
@@ -23,13 +24,14 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
           {/* Brand */}
           <div>
-            <Link href="/" className="flex items-center gap-2 mb-4">
-              <div className="w-9 h-9 rounded-full bg-brand-pink flex items-center justify-center text-white font-display font-bold">
-                K
-              </div>
-              <span className="font-display text-xl font-bold text-white">
-                Kolors<span className="text-brand-pink"> Salon</span>
-              </span>
+            <Link href="/" className="inline-block mb-4">
+              <Image
+                src="/images/kolorslogo.png"
+                alt="Kolors Beauty Salon & Threading"
+                width={140}
+                height={56}
+                className="h-12 w-auto object-contain"
+              />
             </Link>
             <p className="text-white/50 text-sm leading-relaxed mb-6">
               Premium hair styling and threading services in a warm, welcoming
