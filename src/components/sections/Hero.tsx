@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Button from "@/components/ui/Button";
 
 export default function Hero() {
@@ -10,6 +11,23 @@ export default function Hero() {
 
       {/* Content */}
       <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center py-32">
+
+        {/* Logo */}
+        <div className="flex justify-center mb-8 animate-fade-in">
+          <div className="relative">
+            {/* Glow behind logo */}
+            <div className="absolute inset-0 bg-brand-pink/20 blur-2xl rounded-full scale-110 pointer-events-none" />
+            <Image
+              src="/images/kolorslogo.png"
+              alt="Kolors Beauty Salon & Threading"
+              width={280}
+              height={112}
+              className="relative h-24 md:h-32 w-auto object-contain drop-shadow-2xl"
+              priority
+            />
+          </div>
+        </div>
+
         {/* Tag */}
         <div className="inline-flex items-center gap-2 bg-brand-pink/15 border border-brand-pink/30 rounded-full px-4 py-1.5 mb-8 animate-fade-in">
           <div className="w-1.5 h-1.5 bg-brand-pink rounded-full animate-pulse" />

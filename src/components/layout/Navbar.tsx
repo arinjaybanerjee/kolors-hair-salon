@@ -38,15 +38,15 @@ export default function Navbar() {
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-20 md:h-24">
+        <div className="flex items-center justify-between h-24 md:h-28">
           {/* Logo */}
           <Link href="/" className="flex items-center">
             <Image
               src="/images/kolorslogo.png"
               alt="Kolors Beauty Salon & Threading"
-              width={160}
-              height={64}
-              className="h-14 md:h-16 w-auto object-contain"
+              width={220}
+              height={88}
+              className="h-20 md:h-24 w-auto object-contain"
               priority
             />
           </Link>
