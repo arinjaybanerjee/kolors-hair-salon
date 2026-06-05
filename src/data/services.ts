@@ -18,7 +18,7 @@ export const SERVICES: Service[] = [
     category: "hair",
     name: "Women's Haircut",
     description: "Precision cut tailored to your face shape and hair texture",
-    price: "Call for pricing",
+    price: "$15 & up",
     duration: "45 min",
   },
   {
@@ -26,7 +26,7 @@ export const SERVICES: Service[] = [
     category: "hair",
     name: "Men's Haircut",
     description: "Classic or modern cut — clean, sharp finish",
-    price: "Call for pricing",
+    price: "$16 & up",
     duration: "30 min",
   },
   {
@@ -34,7 +34,7 @@ export const SERVICES: Service[] = [
     category: "hair",
     name: "Kids' Haircut",
     description: "Gentle, fun cuts for boys and girls",
-    price: "Call for pricing",
+    price: "$16 & up",
     duration: "20 min",
   },
 
@@ -44,7 +44,7 @@ export const SERVICES: Service[] = [
     category: "hair",
     name: "Blow Dry & Hairstyling",
     description: "Smooth, voluminous blowout styled to perfection",
-    price: "Call for pricing",
+    price: "$30 & up",
     duration: "30 min",
   },
 
