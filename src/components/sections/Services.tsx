@@ -13,11 +13,12 @@ export default function Services() {
   const filtered = SERVICES.filter((s) => s.category === activeTab);
 
   return (
-    <section className="bg-brand-black py-24 px-4 sm:px-6 lg:px-8">
+    <section className="bg-white py-24 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         <SectionHeading
           title="Our Services"
           subtitle="From expert haircuts and color to precision threading — everything you need to look and feel your best."
+          light
         />
 
         {/* Tabs */}
@@ -29,7 +30,7 @@ export default function Services() {
               className={`px-6 py-3 rounded-full font-semibold text-sm transition-all duration-200 cursor-pointer ${
                 activeTab === tab
                   ? "bg-brand-pink text-white shadow-lg shadow-brand-pink/25"
-                  : "bg-white/10 text-white/60 hover:bg-white/20 hover:text-white"
+                  : "bg-brand-black/10 text-brand-black/60 hover:bg-brand-black/20 hover:text-brand-black"
               }`}
             >
               {tab === "hair" ? "✂ Hair Services" : "✦ Threading & Beauty"}
@@ -46,7 +47,7 @@ export default function Services() {
 
         {/* CTA */}
         <div className="text-center mt-12">
-          <p className="text-white/50 text-sm mb-4">
+          <p className="text-brand-black/50 text-sm mb-4">
             Walk-ins welcome · Appointments preferred
           </p>
           <Button href="/contact" size="lg">

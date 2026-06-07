@@ -5,9 +5,9 @@ export default function Hero() {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-hero-gradient">
       {/* Decorative blobs */}
-      <div className="absolute top-1/4 -left-32 w-96 h-96 bg-brand-pink/15 rounded-full blur-3xl pointer-events-none" />
-      <div className="absolute bottom-1/4 -right-32 w-80 h-80 bg-brand-pink/10 rounded-full blur-3xl pointer-events-none" />
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-brand-pink/5 rounded-full blur-3xl pointer-events-none" />
+      <div className="absolute top-1/4 -left-32 w-96 h-96 bg-brand-pink/20 rounded-full blur-3xl pointer-events-none" />
+      <div className="absolute bottom-1/4 -right-32 w-80 h-80 bg-brand-pink/15 rounded-full blur-3xl pointer-events-none" />
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-brand-pink/10 rounded-full blur-3xl pointer-events-none" />
 
       {/* Content */}
       <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center py-32">
@@ -37,7 +37,7 @@ export default function Hero() {
         </div>
 
         {/* Headline */}
-        <h1 className="font-display text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-white mb-6 leading-tight animate-fade-up">
+        <h1 className="font-display text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-brand-black mb-6 leading-tight animate-fade-up">
           Look Good,{" "}
           <span className="text-brand-pink italic">Feel Great</span>
         </h1>
@@ -46,7 +46,7 @@ export default function Hero() {
         <div className="w-24 h-1 bg-brand-pink rounded-full mx-auto mb-8 animate-fade-in" />
 
         {/* Subtext */}
-        <p className="text-white/60 text-lg md:text-xl max-w-2xl mx-auto leading-relaxed mb-10 animate-fade-up">
+        <p className="text-brand-black/60 text-lg md:text-xl max-w-2xl mx-auto leading-relaxed mb-10 animate-fade-up">
           Premium hair styling and precision threading services in a warm,
           welcoming space. Walk in or book your appointment today.
         </p>
@@ -78,14 +78,14 @@ export default function Hero() {
         <div className="mt-20 grid grid-cols-3 gap-8 max-w-lg mx-auto animate-fade-in">
           {[
             { value: "500+", label: "Happy Clients" },
-            { value: "10+", label: "Years Experience" },
+            { value: "8+", label: "Years Experience" },
             { value: "4.0★", label: "Average Rating" },
           ].map((stat) => (
             <div key={stat.label} className="text-center">
               <div className="font-display text-2xl md:text-3xl font-bold text-brand-pink">
                 {stat.value}
               </div>
-              <div className="text-white/40 text-xs mt-1">{stat.label}</div>
+              <div className="text-brand-black/40 text-xs mt-1">{stat.label}</div>
             </div>
           ))}
         </div>
@@ -93,9 +93,9 @@ export default function Hero() {
 
       {/* Scroll indicator */}
       <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 animate-bounce">
-        <span className="text-white/30 text-xs">Scroll</span>
+        <span className="text-brand-black/30 text-xs">Scroll</span>
         <svg
-          className="w-4 h-4 text-white/30"
+          className="w-4 h-4 text-brand-black/30"
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"

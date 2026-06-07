@@ -33,20 +33,20 @@ export default function Navbar() {
     <nav
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         scrolled
-          ? "bg-brand-black/95 backdrop-blur-md shadow-lg shadow-black/20"
+          ? "bg-white/95 backdrop-blur-md shadow-lg shadow-brand-black/10"
           : "bg-transparent"
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-24 md:h-28">
+        <div className="flex items-center justify-between h-28 md:h-32">
           {/* Logo */}
           <Link href="/" className="flex items-center">
             <Image
               src="/images/kolorslogo.png"
               alt="Kolors Beauty Salon & Threading"
-              width={220}
-              height={88}
-              className="h-20 md:h-24 w-auto object-contain"
+              width={280}
+              height={112}
+              className="h-24 md:h-28 w-auto object-contain"
               priority
             />
           </Link>
@@ -67,8 +67,8 @@ export default function Navbar() {
                     after:bg-brand-pink after:transition-all after:duration-300
                     ${
                       isActive
-                        ? "text-white after:w-full"
-                        : "text-white/70 hover:text-white after:w-0 hover:after:w-full"
+                        ? "text-brand-black after:w-full"
+                        : "text-brand-black/60 hover:text-brand-black after:w-0 hover:after:w-full"
                     }`}
                 >
                   {link.label}
@@ -82,23 +82,23 @@ export default function Navbar() {
 
           {/* Mobile hamburger */}
           <button
-            className="md:hidden text-white p-2 focus:outline-none focus:ring-2 focus:ring-brand-pink rounded-lg"
+            className="md:hidden text-brand-black p-2 focus:outline-none focus:ring-2 focus:ring-brand-pink rounded-lg"
             onClick={() => setMenuOpen((prev) => !prev)}
             aria-label="Toggle menu"
           >
             <div className="w-6 flex flex-col gap-1.5">
               <span
-                className={`block h-0.5 bg-white transition-all duration-300 ${
+                className={`block h-0.5 bg-brand-black transition-all duration-300 ${
                   menuOpen ? "rotate-45 translate-y-2" : ""
                 }`}
               />
               <span
-                className={`block h-0.5 bg-white transition-all duration-300 ${
+                className={`block h-0.5 bg-brand-black transition-all duration-300 ${
                   menuOpen ? "opacity-0" : ""
                 }`}
               />
               <span
-                className={`block h-0.5 bg-white transition-all duration-300 ${
+                className={`block h-0.5 bg-brand-black transition-all duration-300 ${
                   menuOpen ? "-rotate-45 -translate-y-2" : ""
                 }`}
               />
@@ -111,7 +111,7 @@ export default function Navbar() {
       <div
         className={`md:hidden transition-all duration-300 overflow-hidden ${
           menuOpen ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
-        } bg-brand-black/98 backdrop-blur-md border-t border-white/10`}
+        } bg-white/98 backdrop-blur-md border-t border-brand-black/10`}
       >
         <div className="px-4 py-6 flex flex-col gap-4">
           {NAV_LINKS.map((link) => {
@@ -123,8 +123,8 @@ export default function Navbar() {
               <Link
                 key={link.href}
                 href={link.href}
-                className={`text-base font-medium py-2 border-b border-white/10 last:border-0 transition-colors ${
-                  isActive ? "text-brand-pink" : "text-white/80 hover:text-white"
+                className={`text-base font-medium py-2 border-b border-brand-black/10 last:border-0 transition-colors ${
+                  isActive ? "text-brand-pink" : "text-brand-black/70 hover:text-brand-black"
                 }`}
               >
                 {link.label}

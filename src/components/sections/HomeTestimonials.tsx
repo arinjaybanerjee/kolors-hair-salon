@@ -48,14 +48,14 @@ function Stars() {
 
 export default function HomeTestimonials() {
   return (
-    <section className="bg-brand-gray-soft border-y border-white/10 py-20 px-4 sm:px-6 lg:px-8 overflow-hidden">
+    <section className="bg-brand-gray-soft border-y border-brand-black/10 py-20 px-4 sm:px-6 lg:px-8 overflow-hidden">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="text-center mb-12">
           <p className="text-brand-pink text-sm font-semibold uppercase tracking-widest mb-2">
             What our clients say
           </p>
-          <h2 className="font-display text-3xl md:text-4xl font-bold text-white">
+          <h2 className="font-display text-3xl md:text-4xl font-bold text-brand-black">
             Loved by hundreds<span className="text-brand-pink">.</span>
           </h2>
         </div>
@@ -65,19 +65,19 @@ export default function HomeTestimonials() {
           {TESTIMONIALS.map((t) => (
             <div
               key={t.id}
-              className="bg-brand-black border border-white/10 rounded-2xl p-6 flex flex-col hover:border-brand-pink/30 transition-colors duration-300"
+              className="bg-white border border-brand-black/10 rounded-2xl p-6 flex flex-col hover:border-brand-pink/30 transition-colors duration-300"
             >
               <Stars />
-              <p className="text-white/70 text-sm leading-relaxed flex-1 mb-5 italic">
+              <p className="text-brand-black/70 text-sm leading-relaxed flex-1 mb-5 italic">
                 &ldquo;{t.text}&rdquo;
               </p>
-              <div className="flex items-center gap-3 pt-4 border-t border-white/10">
+              <div className="flex items-center gap-3 pt-4 border-t border-brand-black/10">
                 <div className="w-9 h-9 rounded-full bg-brand-pink/20 flex items-center justify-center text-brand-pink text-xs font-bold flex-shrink-0">
                   {t.initials}
                 </div>
                 <div>
-                  <p className="text-white text-sm font-semibold">{t.name}</p>
-                  <p className="text-white/40 text-xs">{t.service}</p>
+                  <p className="text-brand-black text-sm font-semibold">{t.name}</p>
+                  <p className="text-brand-black/40 text-xs">{t.service}</p>
                 </div>
               </div>
             </div>
@@ -93,8 +93,8 @@ export default function HomeTestimonials() {
               </svg>
             ))}
           </div>
-          <p className="text-white/50 text-sm">
-            <span className="text-white font-semibold">4.0</span> · 300+ reviews on Google
+          <p className="text-brand-black/50 text-sm">
+            <span className="text-brand-black font-semibold">4.0</span> · 300+ reviews on Google
           </p>
         </div>
       </div>

@@ -9,11 +9,12 @@ export default function HomeServicesTeaser() {
   const featured = SERVICES.filter((s) => FEATURED_IDS.includes(s.id));
 
   return (
-    <section className="bg-brand-black py-24 px-4 sm:px-6 lg:px-8">
+    <section className="bg-white py-24 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         <SectionHeading
           title="Our Services"
           subtitle="From expert haircuts and color to precision threading — everything you need."
+          light
         />
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
           {featured.map((service) => (

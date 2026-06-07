@@ -4,7 +4,7 @@ import Button from "@/components/ui/Button";
 
 export default function Contact() {
   return (
-    <section className="bg-brand-black min-h-screen flex flex-col justify-center py-24 px-4 sm:px-6 lg:px-8">
+    <section className="bg-white min-h-screen flex flex-col justify-center py-24 px-4 sm:px-6 lg:px-8">
       <div className="max-w-4xl mx-auto w-full">
 
         {/* Header */}
@@ -13,16 +13,16 @@ export default function Contact() {
             <div className="w-1.5 h-1.5 bg-brand-pink rounded-full animate-pulse" />
             <span className="text-brand-pink text-sm font-medium">Ready to book?</span>
           </div>
-          <h1 className="font-display text-5xl md:text-6xl font-bold text-white mb-4">
+          <h1 className="font-display text-5xl md:text-6xl font-bold text-brand-black mb-4">
             Give us a <span className="text-brand-pink italic">call</span>
           </h1>
-          <p className="text-white/50 text-lg max-w-md mx-auto">
+          <p className="text-brand-black/50 text-lg max-w-md mx-auto">
             To book an appointment, please call us directly — we&apos;d love to hear from you.
           </p>
         </div>
 
         {/* Phone card */}
-        <div className="bg-brand-gray-soft border border-white/10 rounded-3xl p-8 md:p-12 text-center mb-8 relative overflow-hidden">
+        <div className="bg-brand-gray-soft border border-brand-black/10 rounded-3xl p-8 md:p-12 text-center mb-8 relative overflow-hidden">
           {/* Glow */}
           <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
             <div className="w-64 h-64 bg-brand-pink/10 rounded-full blur-3xl" />
@@ -35,12 +35,12 @@ export default function Contact() {
               </svg>
             </div>
 
-            <p className="text-white/50 text-sm uppercase tracking-widest mb-3 font-medium">
+            <p className="text-brand-black/50 text-sm uppercase tracking-widest mb-3 font-medium">
               Call for appointments
             </p>
             <a
               href="tel:+14702971191"
-              className="font-display text-4xl md:text-5xl font-bold text-white hover:text-brand-pink transition-colors duration-200 block mb-8"
+              className="font-display text-4xl md:text-5xl font-bold text-brand-black hover:text-brand-pink transition-colors duration-200 block mb-8"
             >
               (470) 297-1191
             </a>
@@ -54,29 +54,29 @@ export default function Contact() {
               </Button>
             </div>
 
-            <div className="mt-8 pt-6 border-t border-white/10 grid grid-cols-2 sm:grid-cols-4 gap-4 text-center">
+            <div className="mt-8 pt-6 border-t border-brand-black/10 grid grid-cols-2 sm:grid-cols-4 gap-4 text-center">
               <div>
-                <p className="text-white/50 text-xs uppercase tracking-widest mb-1">Monday</p>
-                <p className="text-white text-sm font-medium">10 AM – 6 PM</p>
+                <p className="text-brand-black/50 text-xs uppercase tracking-widest mb-1">Monday</p>
+                <p className="text-brand-black text-sm font-medium">10 AM – 6 PM</p>
               </div>
               <div>
-                <p className="text-white/50 text-xs uppercase tracking-widest mb-1">Tue – Fri</p>
-                <p className="text-white text-sm font-medium">10 AM – 7 PM</p>
+                <p className="text-brand-black/50 text-xs uppercase tracking-widest mb-1">Tue – Fri</p>
+                <p className="text-brand-black text-sm font-medium">10 AM – 7 PM</p>
               </div>
               <div>
-                <p className="text-white/50 text-xs uppercase tracking-widest mb-1">Saturday</p>
-                <p className="text-white text-sm font-medium">10 AM – 6:30 PM</p>
+                <p className="text-brand-black/50 text-xs uppercase tracking-widest mb-1">Saturday</p>
+                <p className="text-brand-black text-sm font-medium">10 AM – 6:30 PM</p>
               </div>
               <div>
-                <p className="text-white/50 text-xs uppercase tracking-widest mb-1">Sunday</p>
-                <p className="text-white text-sm font-medium">10 AM – 6 PM</p>
+                <p className="text-brand-black/50 text-xs uppercase tracking-widest mb-1">Sunday</p>
+                <p className="text-brand-black text-sm font-medium">10 AM – 6 PM</p>
               </div>
             </div>
           </div>
         </div>
 
         {/* Map */}
-        <div className="bg-brand-gray-soft border border-white/10 rounded-3xl overflow-hidden">
+        <div className="bg-brand-gray-soft border border-brand-black/10 rounded-3xl overflow-hidden">
           <iframe
             title="Kolors Hair Salon Location"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3301.065832933038!2d-84.18446602396888!3d34.1702344731128!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f59b38cb9dbc7d%3A0xe8567e3c9d3f6967!2sKolors%20Beauty%20Salon%20%26%20Threading!5e0!3m2!1sen!2sus!4v1780549870401!5m2!1sen!2sus"
@@ -87,8 +87,8 @@ export default function Contact() {
           />
           <div className="px-6 py-4 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
             <div>
-              <p className="text-white font-semibold text-sm">Kolors Hair Salon</p>
-              <p className="text-white/40 text-xs mt-0.5">5610 Bethelview Rd #800, Cumming, GA 30040</p>
+              <p className="text-brand-black font-semibold text-sm">Kolors Hair Salon</p>
+              <p className="text-brand-black/40 text-xs mt-0.5">5610 Bethelview Rd #800, Cumming, GA 30040</p>
             </div>
             <Button
               href="https://maps.google.com/maps?q=5610+Bethelview+Rd+%23800+Cumming+GA+30040"

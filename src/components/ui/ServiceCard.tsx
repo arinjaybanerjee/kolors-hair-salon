@@ -6,7 +6,7 @@ interface ServiceCardProps {
 
 export default function ServiceCard({ service }: ServiceCardProps) {
   return (
-    <div className="group relative bg-brand-gray-soft border border-white/10 rounded-2xl p-6 hover:border-brand-pink/50 hover:-translate-y-1 transition-all duration-300">
+    <div className="group relative bg-brand-gray-soft border border-brand-black/10 rounded-2xl p-6 hover:border-brand-pink/50 hover:-translate-y-1 transition-all duration-300">
       {/* Price badge */}
       <span className="absolute top-4 right-4 bg-brand-pink/15 text-brand-pink text-xs font-bold px-3 py-1 rounded-full border border-brand-pink/30">
         {service.price}
@@ -45,15 +45,15 @@ export default function ServiceCard({ service }: ServiceCardProps) {
         )}
       </div>
 
-      <h3 className="font-display text-xl font-semibold text-white mb-2 pr-20">
+      <h3 className="font-display text-xl font-semibold text-brand-black mb-2 pr-20">
         {service.name}
       </h3>
-      <p className="text-white/60 text-sm leading-relaxed mb-4">
+      <p className="text-brand-black/60 text-sm leading-relaxed mb-4">
         {service.description}
       </p>
 
       {/* Duration */}
-      <div className="flex items-center gap-1.5 text-white/40 text-xs">
+      <div className="flex items-center gap-1.5 text-brand-black/40 text-xs">
         <svg
           className="w-3.5 h-3.5"
           fill="none"

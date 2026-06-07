@@ -10,7 +10,7 @@ const config: Config = {
           "pink-light": "#F472B6",
           "pink-pale": "#FDF2F8",
           black: "#0A0A0A",
-          "gray-soft": "#1A1A1A",
+          "gray-soft": "#F5F5F5",
         },
       },
       fontFamily: {
@@ -19,7 +19,7 @@ const config: Config = {
       },
       backgroundImage: {
         "hero-gradient":
-          "linear-gradient(135deg, #0A0A0A 0%, #1A0010 60%, #2D0020 100%)",
+          "linear-gradient(135deg, #FFF5FB 0%, #FDF2F8 60%, #FCEEF6 100%)",
       },
       animation: {
         "fade-up": "fadeUp 0.6s ease-out both",

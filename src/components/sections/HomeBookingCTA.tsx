@@ -7,10 +7,10 @@ export default function HomeBookingCTA() {
         {/* Decorative element */}
         <div className="w-16 h-1 bg-brand-pink rounded-full mx-auto mb-8" />
 
-        <h2 className="font-display text-4xl md:text-5xl font-bold text-white mb-4">
+        <h2 className="font-display text-4xl md:text-5xl font-bold text-brand-black mb-4">
           Ready for a <span className="text-brand-pink italic">new look?</span>
         </h2>
-        <p className="text-white/60 text-lg mb-10 max-w-xl mx-auto">
+        <p className="text-brand-black/60 text-lg mb-10 max-w-xl mx-auto">
           Book your appointment online in minutes. Choose your service, pick a
           time, and we&apos;ll take care of the rest.
         </p>
@@ -37,7 +37,7 @@ export default function HomeBookingCTA() {
           </Button>
         </div>
 
-        <p className="text-white/30 text-sm mt-6">
+        <p className="text-brand-black/40 text-sm mt-6">
           Walk-ins always welcome · Mon–Fri 9am–7pm · Sat 9am–6pm · Sun 10am–4pm
         </p>
       </div>
