@@ -71,7 +71,7 @@ export const SERVICES: Service[] = [
     category: "hair",
     name: "Root Touch-Up with Blow Dry",
     description: "Root touch-up followed by a smooth, finished blowout",
-    price: "$90",
+    price: "$90 & up",
     duration: "90 min",
   },
   {
