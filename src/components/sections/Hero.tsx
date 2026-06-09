@@ -22,7 +22,7 @@ export default function Hero() {
               alt="Kolors Beauty Salon & Threading"
               width={280}
               height={112}
-              className="relative h-24 md:h-32 w-auto object-contain drop-shadow-2xl"
+              className="relative h-36 md:h-48 w-auto object-contain drop-shadow-2xl"
               priority
             />
           </div>
