@@ -16,7 +16,7 @@ export const SERVICES: Service[] = [
   {
     id: "womens-haircut",
     category: "hair",
-    name: "Women's Haircut",
+    name: "Women's & Girls' Haircut",
     description: "Precision cut tailored to your face shape and hair texture",
     price: "$15 & up",
     duration: "45 min",
@@ -24,7 +24,7 @@ export const SERVICES: Service[] = [
   {
     id: "mens-haircut",
     category: "hair",
-    name: "Men's Haircut",
+    name: "Men's & Boys' Haircut",
     description: "Classic or modern cut — clean, sharp finish",
     price: "$16 & up",
     duration: "30 min",

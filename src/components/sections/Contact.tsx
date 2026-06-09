@@ -54,7 +54,8 @@ export default function Contact() {
               </Button>
             </div>
 
-            <div className="mt-8 pt-6 border-t border-brand-black/10 grid grid-cols-2 sm:grid-cols-4 gap-4 text-center">
+            <div className="mt-8 pt-6 border-t border-brand-black/10">
+              <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 text-center">
               <div>
                 <p className="text-brand-black/50 text-xs uppercase tracking-widest mb-1">Monday</p>
                 <p className="text-brand-black text-sm font-medium">10 AM – 6 PM</p>
@@ -71,6 +72,10 @@ export default function Contact() {
                 <p className="text-brand-black/50 text-xs uppercase tracking-widest mb-1">Sunday</p>
                 <p className="text-brand-black text-sm font-medium">10 AM – 6 PM</p>
               </div>
+            </div>
+            <p className="text-brand-black/40 text-xs text-center mt-4">
+              ⚠ Hours may vary on public holidays — please call ahead to confirm.
+            </p>
             </div>
           </div>
         </div>

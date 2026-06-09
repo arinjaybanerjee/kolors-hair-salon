@@ -48,7 +48,7 @@ export default function Services() {
         {/* CTA */}
         <div className="text-center mt-12">
           <p className="text-brand-black/50 text-sm mb-4">
-            Walk-ins welcome · Appointments preferred
+            Appointments preferred
           </p>
           <Button href="/contact" size="lg">
             Book Your Session

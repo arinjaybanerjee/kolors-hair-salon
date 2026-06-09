@@ -38,7 +38,7 @@ export default function HomeBookingCTA() {
         </div>
 
         <p className="text-brand-black/40 text-sm mt-6">
-          Walk-ins always welcome · Mon–Fri 9am–7pm · Sat 9am–6pm · Sun 10am–4pm
+          Appointments preferred · Mon–Fri 10am–7pm · Sat 10am–6:30pm · Sun 10am–6pm
         </p>
       </div>
     </section>
