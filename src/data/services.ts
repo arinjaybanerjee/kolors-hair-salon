@@ -29,14 +29,7 @@ export const SERVICES: Service[] = [
     price: "$16 & up",
     duration: "30 min",
   },
-  {
-    id: "kids-haircut",
-    category: "hair",
-    name: "Kids' Haircut",
-    description: "Gentle, fun cuts for boys and girls",
-    price: "$16 & up",
-    duration: "20 min",
-  },
+  
 
   // Blow Dry & Hairstyling
   {
@@ -180,7 +173,7 @@ export const SERVICES: Service[] = [
     category: "threading",
     name: "Full Chin",
     description: "Complete chin threading for a smooth finish",
-    price: "$10",
+    price: "$10 & up",
     duration: "10 min",
   },
   {
@@ -188,7 +181,7 @@ export const SERVICES: Service[] = [
     category: "threading",
     name: "Forehead",
     description: "Neat forehead threading for a clean hairline",
-    price: "$5",
+    price: "$5 & up",
     duration: "10 min",
   },
   {
@@ -214,7 +207,7 @@ export const SERVICES: Service[] = [
     category: "threading",
     name: "Underarms Wax",
     description: "Smooth, clean underarm waxing",
-    price: "$7",
+    price: "$7 & up",
     duration: "15 min",
   },
   {
@@ -222,7 +215,7 @@ export const SERVICES: Service[] = [
     category: "threading",
     name: "Half Arms Wax",
     description: "Waxing from wrist to elbow",
-    price: "$20",
+    price: "$20 & up",
     duration: "20 min",
   },
   {
@@ -230,7 +223,7 @@ export const SERVICES: Service[] = [
     category: "threading",
     name: "Full Arms Wax",
     description: "Complete arm waxing from wrist to shoulder",
-    price: "$25",
+    price: "$25 & up",
     duration: "30 min",
   },
   {
@@ -246,7 +239,7 @@ export const SERVICES: Service[] = [
     category: "threading",
     name: "Full Legs Wax",
     description: "Complete leg waxing from ankle to upper thigh",
-    price: "$35",
+    price: "$35 & up",
     duration: "40 min",
   },
   {
@@ -254,7 +247,7 @@ export const SERVICES: Service[] = [
     category: "threading",
     name: "Stomach Wax",
     description: "Smooth stomach waxing",
-    price: "$15",
+    price: "$15 & up",
     duration: "15 min",
   },
   {
@@ -262,7 +255,7 @@ export const SERVICES: Service[] = [
     category: "threading",
     name: "Back Wax",
     description: "Full back waxing for smooth, hair-free skin",
-    price: "$25",
+    price: "$25 & up",
     duration: "30 min",
   },
   {
@@ -278,7 +271,7 @@ export const SERVICES: Service[] = [
     category: "threading",
     name: "Bikini Wax",
     description: "Clean bikini line waxing",
-    price: "$20",
+    price: "$20 & up",
     duration: "20 min",
   },
   {
@@ -294,7 +287,7 @@ export const SERVICES: Service[] = [
     category: "threading",
     name: "Full Arms, Full Legs & Underarms",
     description: "Complete arm, leg, and underarm waxing combo",
-    price: "$65",
+    price: "$65 & up",
     duration: "75 min",
   },
   {
@@ -302,7 +295,7 @@ export const SERVICES: Service[] = [
     category: "threading",
     name: "Half Legs, Half Arms & Underarms",
     description: "Half legs, half arms, and underarm combo",
-    price: "$55",
+    price: "$55 & up",
     duration: "60 min",
   },
   {
@@ -310,7 +303,7 @@ export const SERVICES: Service[] = [
     category: "threading",
     name: "Full Arms, Full Legs, Underarms & Brazilian",
     description: "Full arms, legs, underarms, and Brazilian combo",
-    price: "$90",
+    price: "$90 & up",
     duration: "90 min",
   },
   {
@@ -318,7 +311,7 @@ export const SERVICES: Service[] = [
     category: "threading",
     name: "Full Body with Brazilian",
     description: "Complete full body waxing with Brazilian",
-    price: "$125",
+    price: "$125 & up",
     duration: "120 min",
   },
 
@@ -328,7 +321,7 @@ export const SERVICES: Service[] = [
     category: "threading",
     name: "Fruit Bleach (Face)",
     description: "Brightening fruit bleach for the face",
-    price: "$20",
+    price: "$20 & up",
     duration: "20 min",
   },
   {
@@ -336,7 +329,7 @@ export const SERVICES: Service[] = [
     category: "threading",
     name: "Gold Bleach",
     description: "Luxurious gold bleach for a radiant glow",
-    price: "$20",
+    price: "$20 & up",
     duration: "20 min",
   },
   {
@@ -344,7 +337,7 @@ export const SERVICES: Service[] = [
     category: "threading",
     name: "Diamond Bleach",
     description: "Diamond bleach for a bright, luminous finish",
-    price: "$20",
+    price: "$20 & up",
     duration: "20 min",
   },
   {
@@ -352,7 +345,7 @@ export const SERVICES: Service[] = [
     category: "threading",
     name: "Neck Bleach",
     description: "Even-toned brightening bleach for the neck",
-    price: "$5",
+    price: "$5 & up",
     duration: "15 min",
   },
   {
@@ -360,7 +353,7 @@ export const SERVICES: Service[] = [
     category: "threading",
     name: "Back Bleach",
     description: "Brightening bleach treatment for the back",
-    price: "$10",
+    price: "$10 & up",
     duration: "20 min",
   },
   {
@@ -368,7 +361,7 @@ export const SERVICES: Service[] = [
     category: "threading",
     name: "Hand Bleach",
     description: "Brightening bleach for smooth, even-toned hands",
-    price: "$25",
+    price: "$25 & up",
     duration: "20 min",
   },
   {
@@ -376,7 +369,7 @@ export const SERVICES: Service[] = [
     category: "threading",
     name: "Leg Bleach",
     description: "Full leg brightening bleach treatment",
-    price: "$30",
+    price: "$30 & up",
     duration: "30 min",
   },
   {
@@ -384,7 +377,7 @@ export const SERVICES: Service[] = [
     category: "threading",
     name: "Half Leg Bleach",
     description: "Half leg brightening bleach treatment",
-    price: "$25",
+    price: "$25 & up",
     duration: "20 min",
   },
   {
@@ -392,7 +385,7 @@ export const SERVICES: Service[] = [
     category: "threading",
     name: "Detan Pack",
     description: "Targeted de-tanning pack to restore your natural skin tone",
-    price: "$20",
+    price: "$20 & up",
     duration: "25 min",
   },
 
@@ -402,7 +395,7 @@ export const SERVICES: Service[] = [
     category: "threading",
     name: "Mini Facial",
     description: "Quick refreshing facial for an instant glow",
-    price: "$40",
+    price: "$40 & up",
     duration: "30 min",
   },
   {
@@ -410,7 +403,7 @@ export const SERVICES: Service[] = [
     category: "threading",
     name: "Gold Facial",
     description: "Luxurious gold facial for a radiant, youthful complexion",
-    price: "$50",
+    price: "$50 & up",
     duration: "45 min",
   },
   {
@@ -418,7 +411,7 @@ export const SERVICES: Service[] = [
     category: "threading",
     name: "Diamond Facial",
     description: "Diamond facial for deep cleansing and brightening",
-    price: "$50",
+    price: "$50 & up",
     duration: "45 min",
   },
   {
@@ -426,7 +419,7 @@ export const SERVICES: Service[] = [
     category: "threading",
     name: "Papaya Facial",
     description: "Enzyme-rich papaya facial for glowing, smooth skin",
-    price: "$50",
+    price: "$50 & up",
     duration: "45 min",
   },
   {
@@ -434,7 +427,7 @@ export const SERVICES: Service[] = [
     category: "threading",
     name: "Platinum Facial",
     description: "Premium platinum facial for deep nourishment",
-    price: "$50",
+    price: "$50 & up",
     duration: "45 min",
   },
   {
@@ -442,7 +435,7 @@ export const SERVICES: Service[] = [
     category: "threading",
     name: "Fruit Facial",
     description: "Natural fruit-based facial for fresh, bright skin",
-    price: "$50",
+    price: "$50 & up",
     duration: "45 min",
   },
   {
@@ -450,7 +443,7 @@ export const SERVICES: Service[] = [
     category: "threading",
     name: "Pearl Facial",
     description: "Pearl-infused facial for luminous, even-toned skin",
-    price: "$55",
+    price: "$55 & up",
     duration: "45 min",
   },
   {
@@ -458,7 +451,7 @@ export const SERVICES: Service[] = [
     category: "threading",
     name: "Wine Facial",
     description: "Antioxidant-rich wine facial for youthful, glowing skin",
-    price: "$55",
+    price: "$55 & up",
     duration: "45 min",
   },
   {
@@ -466,7 +459,7 @@ export const SERVICES: Service[] = [
     category: "threading",
     name: "Aloe Vera Facial",
     description: "Soothing aloe vera facial for calm, refreshed skin",
-    price: "$55",
+    price: "$55 & up",
     duration: "45 min",
   },
   {
@@ -482,7 +475,7 @@ export const SERVICES: Service[] = [
     category: "threading",
     name: "Shahnaz Gold Facial",
     description: "Premium Shahnaz Husain gold facial for deep rejuvenation",
-    price: "$60",
+    price: "$60 & up",
     duration: "60 min",
   },
   {
@@ -490,7 +483,7 @@ export const SERVICES: Service[] = [
     category: "threading",
     name: "Shahnaz Diamond Facial",
     description: "Premium Shahnaz Husain diamond facial treatment",
-    price: "$60",
+    price: "$60 & up",
     duration: "60 min",
   },
   {
@@ -498,7 +491,7 @@ export const SERVICES: Service[] = [
     category: "threading",
     name: "O3 Facial",
     description: "Professional O3+ ozone facial for deep skin renewal",
-    price: "$60",
+    price: "$60 & up",
     duration: "60 min",
   },
   {
@@ -506,7 +499,7 @@ export const SERVICES: Service[] = [
     category: "threading",
     name: "Anti-Tan Facial",
     description: "Targeted facial to reduce tan and restore even skin tone",
-    price: "$60",
+    price: "$60 & up",
     duration: "60 min",
   },
   {
@@ -514,7 +507,7 @@ export const SERVICES: Service[] = [
     category: "threading",
     name: "Anti-Acne Facial",
     description: "Deep cleansing facial to combat acne and blemishes",
-    price: "$60",
+    price: "$60 & up",
     duration: "60 min",
   },
   {
@@ -522,7 +515,7 @@ export const SERVICES: Service[] = [
     category: "threading",
     name: "Vitamin C Facial",
     description: "Brightening Vitamin C facial for a luminous complexion",
-    price: "$60",
+    price: "$60 & up",
     duration: "60 min",
   },
   {
