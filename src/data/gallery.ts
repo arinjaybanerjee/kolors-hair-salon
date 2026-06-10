@@ -15,4 +15,5 @@ export const GALLERY_ITEMS: GalleryItem[] = [
   { id: "g8", src: "/images/kolors9.jpg", alt: "" },
   { id: "g9", src: "/images/kolors10.jpeg", alt: "" },
   { id: "g10", src: "/images/kolors11.jpeg", alt: "" },
+  { id: "g11", src: "/images/kolors12.jpeg", alt: "" },
 ];
